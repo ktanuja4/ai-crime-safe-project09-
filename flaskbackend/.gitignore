@@ -1,0 +1,14 @@
+# Ignore machine learning model files
+*.joblib
+
+# Ignore the local database
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
