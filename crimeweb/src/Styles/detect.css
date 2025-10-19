@@ -1,0 +1,166 @@
+.Detect-background h1{
+
+    color: white;
+    font-weight: bold;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.Detect-background p{
+
+    color: white;
+    font-weight: bold;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.Analysis{
+    background: #020f6d;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 2%;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+    display: block; /* Changed from flex */
+    justify-content: center;
+    width: 70%;
+
+}
+.analyse-data {
+    margin: 2%;
+    display: block;
+    border: solid white;
+    border-radius: 15px;
+    background-color: #081470;
+}
+#content{
+    margin-left: 15%;
+    padding: 2%;
+}
+.analyse-data button{
+    background-color: white;
+    color: #020f6d;
+    margin-bottom: 3%;
+    border-radius: 10px;
+   margin-left: 15%; /* This will be overridden for consistency */
+}
+.analyse-data button:hover{
+    background-color:#020f6d ;
+    color: white;
+}
+.analyse-data input{
+    background-color: white;
+    border-radius: 10px;
+    margin:10px;
+    width: 70%;
+    margin-left: 15%; /* This will be overridden for consistency */
+    padding: 15px;
+
+}
+.detect-file-input{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.FileAnalyse{
+    width: 70%;
+    padding: 1.5% 0%;
+    font-weight: bolder;
+    
+}
+
+
+/* FOR URL */
+
+.analyse-url{
+    margin: 2%;
+    display: block;
+    border: solid white;
+    border-radius: 15px;
+    background-color: #081470;
+
+
+}
+
+.Detect-background {
+    min-height: 100vh; /* Ensure background covers at least full viewport height */
+}
+
+.analyse-url button{
+    background-color: white;
+    color: #020f6d;
+    margin-bottom: 3%;
+    border-radius: 10px;
+
+}
+.analyse-url [type="text"]{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px auto; /* Center the element */
+    width: 70%;
+    padding: 15px;
+
+}
+.Analysis{
+    margin: 10px auto 3%; /* Center the element */
+}
+.analyse-url button:hover{
+    background-color: #020f6d;
+    color: white;
+}
+
+/* Make inputs and buttons consistent and centered */
+.analyse-data input,
+.analyse-data button,
+.analyse-url [type="text"],
+.analyse-url button {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.analyse-data button,
+.analyse-url button {
+    margin-top: 15px;
+    margin-bottom: 3%;
+    padding: 15px;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .Detect-background h1 {
+        font-size: 2.2rem;
+    }
+
+    .Detect-background p {
+        font-size: 1.2rem;
+    }
+
+    /* Use more screen width on mobile */
+    .analyse-data input,
+    .analyse-data button,
+    .analyse-url [type="text"],
+    .analyse-url button {
+        width: 90%;
+    }
+}
+
+
+.file-selected-tick {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Space between icon and text */
+    color: #4caf50; 
+    font-size: 0.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

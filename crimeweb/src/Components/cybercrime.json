@@ -1,0 +1,128 @@
+ [
+        {
+            "id": 1,
+            "name": "Online Job Fraud",
+            "explanation": "Fraudulent job offers that lure victims into providing personal information or money, often through fake websites or job postings."
+        },
+        {
+            "id": 2,
+            "name": " Espionage",
+            "explanation": "The act of spying or using spies to obtain secret information, typically for political or military advantage."
+        },
+        {
+            "id": 3,
+            "name": "Online Drug Trafficking",
+            "explanation": "The illegal trade of drugs through online platforms, including the dark web, where transactions are often conducted using cryptocurrencies to maintain anonymity."
+        },
+        {
+            "id": 4,
+            "name": "Cryptojacking",
+            "explanation": "The unauthorized use of a victim's computing power to mine cryptocurrencies. The victim's computer will typically slow down and use excessive power without their knowledge."
+        },
+        {
+            "id": 5,
+            "name": "Online Gambling Fraud",
+            "explanation": "Deceptive practices in online gambling, such as rigged games, false advertising, and non-payment of winnings, which exploit players for financial gain."
+        },
+        {
+            "id": 6,
+             "name": "Debit/Credit Card Fraud",
+            "explanation": "The unauthorized use of a person's debit or credit card information to make purchases or withdraw funds without their permission."
+        },
+        {
+            "id": 7,
+            "name": "Phishing",
+            "explanation": "A type of social engineering where attackers send fraudulent messages, often purporting to be from a reputable company, to trick an individual into revealing sensitive information like login credentials, credit card numbers, and other personally identifiable data."
+        },
+        {
+            "id": 8,
+            "name": "Social Engineering",
+            "explanation": "The psychological manipulation of people into performing actions or divulging confidential information. This can include tactics like pretexting, baiting, and tailgating."
+        },
+        {
+            "id": 9,
+            "name": "Data Breach",
+            "explanation": "An incident where sensitive, protected, or confidential data is accessed or disclosed in an unauthorized manner. This can involve personal information, financial data, or intellectual property."
+        },
+        {
+            "id": 10,
+            "name": "Child Pornography/ Child sexually abusive material (CSAM)",
+            "explanation": "The creation, distribution, and possession of sexually explicit images or videos involving minors. This is a serious crime with severe legal consequences."
+        },
+        {
+            "id": 11,
+            "name": "Ransomware",
+            "explanation": "Malicious software that encrypts a victim's files, blocking access to their data. The attacker then demands a ransom payment, usually in cryptocurrency, in exchange for the decryption key."
+        },
+        {
+            "id": 12,
+            "name": "Identity Theft",
+            "explanation": "Occurs when a cybercriminal steals and uses another person's personal data—such as their name, credit card details, or social security number—to commit fraud or other crimes without their permission."
+        },
+        {
+            "id": 13,
+            "name": "Malware",
+            "explanation": "Malicious software, including viruses, worms, and Trojans, designed to disrupt or damage computer systems, steal data, or gain unauthorized access to a network."
+        },
+        {
+            "id": 14,
+            "name": "DDoS Attack (Distributed Denial-of-Service)",
+            "explanation": "An attempt to make an online service unavailable by overwhelming it with a flood of traffic from multiple compromised computer systems. This can cause the network or website to slow down or crash."
+        },
+        {
+            "id": 15,
+            "name": "Cyberstalking",
+            "explanation": "The use of electronic communication to repeatedly harass, intimidate, or monitor an individual. It can include sending unwanted messages, following social media activity, and other persistent, threatening behavior."
+        },
+        {
+            "id": 16,
+            "name": "Hacking",
+            "explanation": "Gaining unauthorized access to a computer system or network. Hacking can be done for various malicious reasons, including stealing data, tampering with information, or shutting down systems."
+        },
+        {
+            "id": 17,
+            "name": "Cryptojacking",
+            "explanation": "The unauthorized use of a victim's computing power to mine cryptocurrencies. The victim's computer will typically slow down and use excessive power without their knowledge."
+        },
+        {
+            "id": 18,
+            "name": "Website Defacement",
+            "explanation": "An attack that alters the visual appearance or functionality of a website. The attacker may post indecent, hostile, or obscene images and messages."
+        },
+        {
+            "id": 19,
+            "name": "Cyber Espionage",
+            "explanation": "The act of illegally accessing and stealing confidential data from government or corporate entities for a strategic, economic, or military advantage. This can involve state-sponsored groups or individual hackers."
+        },
+        {
+            
+            "id": 20,
+            "name": "Cyberbullying",
+            "explanation": "The use of digital devices to harass, threaten, or embarrass an individual, often repeatedly. It is particularly common among teenagers."
+        },
+        {
+            "id": 21,
+            "name": "Online Fraud",
+            "explanation": "Deceptive online schemes aimed at financial gain. This is a broad category that can include investment scams, fake e-commerce sites, and fraudulent advertisements."
+        },
+        {
+            "id": 22,
+            "name": "Insider Threats",
+            "explanation": "Security risks that originate from within an organization, often involving employees or contractors who misuse their access to sensitive information for malicious purposes."
+        },
+        {
+            "id": 23,
+            "name": "Online Harassment",
+            "explanation": "The use of digital platforms to threaten, intimidate, or humiliate individuals. This can include sending abusive messages, spreading false information, or sharing private content without consent."
+        },
+        {
+            "id": 24,
+            "name": "Fake News and Misinformation",
+            "explanation": "The deliberate spread of false or misleading information through digital platforms, often to influence public opinion or obscure the truth."
+        },
+        {
+            "id": 25,
+            "name": "Cryptojacking",
+            "explanation":"The unauthorized use of a victim's computing power to mine cryptocurrencies. The victim's computer will typically slow down and use excessive power without their knowledge."
+        }
+    ]

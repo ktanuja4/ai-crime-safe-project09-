@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.footer-background {
+    background-position: bottom center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    width: 100vw;
+}
+.section6, .contactus, .socialmedia {
+    flex: 1;
+    padding: 25px;
+    color: white;
+    font-size:larger;
+}
+.footer-logo {
+    width: 70%;
+    margin-bottom: 10px;
+}
+.contactus a {
+    color: white;
+    text-decoration: none;
+}
+.contactus,.socialmedia{
+    margin-top: 10px;
+    line-height: 1.8;
+    cursor: pointer;
+}
+.contactus h3,.socialmedia h3{
+    font-size:1.6rem;
+    
+}
+.socialmedia a{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adjust this value to increase or decrease the space */
+    text-decoration: none;
+    margin-right: 15px;
+    cursor: pointer; 
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socialmedia a:hover {
+    color: #aaa; /* Or use a variable like var(--accent-color) */
+    transform: translateY(-2px);
+}
+.footer-bottom{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #020f6d;
+    color: white;
+    font-size: 1rem;
+}
+
+.logo-text {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #e8edef;
+    letter-spacing: 1px;
+  }
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack footer sections vertically */
+        text-align: center;
+        padding: 20px 0;
+    }
+    .section6, .contactus, .socialmedia {
+        padding: 20px; /* Consistent padding for all sections */
+        width: 100%;
+    }
+    .social-links-container a{
+        justify-content: center; /* Center social media links */
+    }
+}
