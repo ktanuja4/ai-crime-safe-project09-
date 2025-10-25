@@ -1,7 +1,7 @@
 
 import React from 'react';
 import footerback from "../images/image2.png";
-import crimeweblogo from "../images/crimeweb-logo-white.png";
+
 import { FaFacebook, FaTwitter, FaInstagram ,FaYoutube} from 'react-icons/fa';
 import "../Styles/footer.css";
 

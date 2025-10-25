@@ -15,6 +15,8 @@ const Report = () => {
   const [detailsAnalysis, setDetailsAnalysis] = useState('');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
+ 
+
   const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8000';
 
   // This effect will run to analyze the 'details' text as the user types.
@@ -88,6 +90,9 @@ const Report = () => {
     }
   };
 
+  
+  // ... later in the JSX
+  
   return (
     <div id="report" className='Report-background' style={{ backgroundImage: `url(${reportback})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh', width: '100%' }}>
       <h1>Report a crime</h1>
@@ -108,7 +113,7 @@ const Report = () => {
         {/* Display the real-time analysis result */}
         {(isAnalyzing || detailsAnalysis) && (
           <div className="details-analysis-container">
-            <p className={`details-analysis-result ${detailsAnalysis.includes('SPAM') ? 'spam' : 'not-spam'}`}>
+             <p className={`details-analysis-result ${detailsAnalysis === 'SPAM' ? 'spam' : 'not-spam'}`}>
               {isAnalyzing ? 'Analyzing...' : `Content Type: ${detailsAnalysis}`}
             </p>
           </div>

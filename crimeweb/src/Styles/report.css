@@ -101,8 +101,8 @@
 
 
 .details-analysis-result.spam {
-    color: #ff4d4d;
+    color: #ff4444;
 }
 .details-analysis-result.not-spam {
-    color: #4dff88;
+   color: #4caf50; /* A more visible green */
 }
